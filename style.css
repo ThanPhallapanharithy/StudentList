@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-weight: bold;
+}
+.main{
+  width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.387), rgba(0, 0, 0, 0.5)), url(src/photo-1568142402902-1298fe147da9.avif);
+    background-size: cover;
+    overflow: hidden;
+}
+#cancel{
+  display: none;
+}
+.remove {
+  display: none;
+}
+.btn-add {
+  background-color: aqua;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+.btn-add:hover {
+  background-color: rgb(0, 121, 121);
+  transform: scale(1.03);
+  color: white;
+}
+.table-container {
+  margin: 5rem;
+}
+select {
+  width: 100%;
+}
